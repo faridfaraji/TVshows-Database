@@ -1,0 +1,35 @@
+USE untitled_review_website;
+
+DROP USER IF EXISTS 'application'@'localhost';
+DROP USER IF EXISTS 'admin'@'localhost';
+DROP USER IF EXISTS 'scollura'@'localhost';
+DROP USER IF EXISTS 'csiede'@'localhost';
+DROP USER IF EXISTS 'jrivera'@'localhost';
+
+DROP ROLE IF EXISTS 'Administrator'@'localhost';
+DROP ROLE IF EXISTS 'Critic'@'localhost';
+
+DROP TABLE IF EXISTS Publishes;
+DROP TABLE IF EXISTS Publication;
+DROP TABLE IF EXISTS UserReview;
+DROP TABLE IF EXISTS User;
+DROP TABLE IF EXISTS CriticWrites;
+DROP TABLE IF EXISTS CriticReview;
+DROP TABLE IF EXISTS Critic;
+DROP TABLE IF EXISTS Review;
+DROP TABLE IF EXISTS Film;
+DROP TABLE IF EXISTS Episode;
+DROP TABLE IF EXISTS Season;
+DROP TABLE IF EXISTS Serial;
+DROP TABLE IF EXISTS AwardForProgramForCrewPerson;
+DROP TABLE IF EXISTS AwardForProgram;
+DROP TABLE IF EXISTS Award;
+DROP TABLE IF EXISTS WorksOn;
+DROP TABLE IF EXISTS CrewPerson;
+DROP TABLE IF EXISTS RoleType;
+DROP TABLE IF EXISTS Broadcast;
+DROP TABLE IF EXISTS BroadcastSchedule;
+DROP TABLE IF EXISTS Stream;
+DROP TABLE IF EXISTS Platform;
+DROP TABLE IF EXISTS Program;
+DROP VIEW IF EXISTS UpcomingReleases;
